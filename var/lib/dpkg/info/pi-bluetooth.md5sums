@@ -1,0 +1,6 @@
+5fe94311fc65d623c59b75145de09a4b  lib/systemd/system/bthelper.service
+1fcc754c44910478d9dad5cad8f49606  lib/systemd/system/hciuart.service
+d31d15ca7cba9484d1f6c706c61669f8  usr/bin/bthelper
+6c63786dedbf904134d407b94d5b7df0  usr/bin/btuart
+d15b3361c4ae3951be491f61bcc7ca4b  usr/share/doc/pi-bluetooth/changelog.gz
+6af8de3c8ee71f8e91e9b22f84ff2022  usr/share/doc/pi-bluetooth/copyright

@@ -1,0 +1,340 @@
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000] On node 0 totalpages: 229376
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Apr 18 01:08:12 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Apr 18 01:08:12 raspberrypi kernel: [    0.707004] dwc_otg: Microframe scheduler enabled
+Apr 18 01:08:12 raspberrypi kernel: [    0.742404] dwc_otg: FIQ enabled
+Apr 18 01:08:12 raspberrypi kernel: [    0.742409] dwc_otg: NAK holdoff enabled
+Apr 18 01:08:12 raspberrypi kernel: [    0.742414] dwc_otg: FIQ split-transaction FSM enabled
+Apr 18 01:08:12 raspberrypi kernel: [    0.742424] Module dwc_common_port init
+Apr 18 01:08:12 raspberrypi kernel: [    6.381207] brcmfmac: F1 signature read @0x18000000=0x15264345
+Apr 18 01:08:12 raspberrypi thd[326]: Found socket passed from systemd
+Jun 11 01:05:27 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 01:05:27 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 01:05:27 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 01:05:27 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 01:05:27 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 01:05:27 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 01:05:27 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 01:05:27 donkeypi kernel: [    0.706950] dwc_otg: Microframe scheduler enabled
+Jun 11 01:05:27 donkeypi kernel: [    0.742378] dwc_otg: FIQ enabled
+Jun 11 01:05:27 donkeypi kernel: [    0.742384] dwc_otg: NAK holdoff enabled
+Jun 11 01:05:27 donkeypi kernel: [    0.742388] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 01:05:27 donkeypi kernel: [    0.742398] Module dwc_common_port init
+Jun 11 01:05:27 donkeypi thd[300]: Found socket passed from systemd
+Jun 11 01:05:27 donkeypi kernel: [    3.859518] brcmfmac: F1 signature read @0x18000000=0x15264345
+Jun 11 05:07:21 donkeypi thd[307]: Found socket passed from systemd
+Jun 11 05:07:21 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 05:07:21 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 05:07:21 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 05:07:21 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 05:07:21 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 05:07:21 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 05:07:21 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 05:07:21 donkeypi kernel: [    0.707403] dwc_otg: Microframe scheduler enabled
+Jun 11 05:07:21 donkeypi kernel: [    0.742762] dwc_otg: FIQ enabled
+Jun 11 05:07:21 donkeypi kernel: [    0.742767] dwc_otg: NAK holdoff enabled
+Jun 11 05:07:21 donkeypi kernel: [    0.742772] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 05:07:21 donkeypi kernel: [    0.742782] Module dwc_common_port init
+Jun 11 05:07:21 donkeypi kernel: [    3.668027] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jun 11 05:12:03 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 05:12:03 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 05:12:03 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 05:12:03 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 05:12:03 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 05:12:03 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 05:12:03 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 05:12:03 donkeypi kernel: [    0.707261] dwc_otg: Microframe scheduler enabled
+Jun 11 05:12:03 donkeypi kernel: [    0.742666] dwc_otg: FIQ enabled
+Jun 11 05:12:03 donkeypi kernel: [    0.742671] dwc_otg: NAK holdoff enabled
+Jun 11 05:12:03 donkeypi kernel: [    0.742676] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 05:12:03 donkeypi kernel: [    0.742686] Module dwc_common_port init
+Jun 11 05:12:03 donkeypi thd[338]: Found socket passed from systemd
+Jun 11 05:12:03 donkeypi kernel: [    8.357513] brcmfmac: F1 signature read @0x18000000=0x15264345
+Jun 11 06:09:15 donkeypi thd[297]: Found socket passed from systemd
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 06:09:15 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 06:09:15 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 06:09:15 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 06:09:15 donkeypi kernel: [    0.707458] dwc_otg: Microframe scheduler enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742819] dwc_otg: FIQ enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742825] dwc_otg: NAK holdoff enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742829] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742840] Module dwc_common_port init
+Jun 11 06:09:15 donkeypi kernel: [    5.928685] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jun 11 06:09:20 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 06:09:20 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 06:09:20 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 06:09:20 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 06:09:20 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 06:09:20 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 06:09:20 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 06:09:20 donkeypi kernel: [    0.707353] dwc_otg: Microframe scheduler enabled
+Jun 11 06:09:20 donkeypi kernel: [    0.742709] dwc_otg: FIQ enabled
+Jun 11 06:09:20 donkeypi kernel: [    0.742715] dwc_otg: NAK holdoff enabled
+Jun 11 06:09:20 donkeypi kernel: [    0.742720] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 06:09:20 donkeypi kernel: [    0.742729] Module dwc_common_port init
+Jun 11 06:09:20 donkeypi thd[325]: Found socket passed from systemd
+Jun 11 06:09:20 donkeypi kernel: [   15.181850] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 06:09:15 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 06:09:15 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 06:09:15 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 06:09:15 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 06:09:15 donkeypi thd[293]: Found socket passed from systemd
+Jun 11 06:09:15 donkeypi kernel: [    0.707410] dwc_otg: Microframe scheduler enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742777] dwc_otg: FIQ enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742782] dwc_otg: NAK holdoff enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742787] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 06:09:15 donkeypi kernel: [    0.742797] Module dwc_common_port init
+Jun 11 06:09:15 donkeypi kernel: [    9.228429] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jun 11 06:17:03 donkeypi thd[311]: Found socket passed from systemd
+Jun 11 06:17:03 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jun 11 06:17:03 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jun 11 06:17:03 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jun 11 06:17:03 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun 11 06:17:03 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jun 11 06:17:03 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun 11 06:17:03 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 11 06:17:03 donkeypi kernel: [    0.707394] dwc_otg: Microframe scheduler enabled
+Jun 11 06:17:03 donkeypi kernel: [    0.742767] dwc_otg: FIQ enabled
+Jun 11 06:17:03 donkeypi kernel: [    0.742772] dwc_otg: NAK holdoff enabled
+Jun 11 06:17:03 donkeypi kernel: [    0.742777] dwc_otg: FIQ split-transaction FSM enabled
+Jun 11 06:17:03 donkeypi kernel: [    0.742787] Module dwc_common_port init
+Jun 11 06:17:03 donkeypi kernel: [    9.598303] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 17:36:35 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 17:36:35 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 17:36:35 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 17:36:35 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 17:36:35 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 17:36:35 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 17:36:35 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 17:36:35 donkeypi kernel: [    0.707430] dwc_otg: Microframe scheduler enabled
+Jan 23 17:36:35 donkeypi thd[299]: Found socket passed from systemd
+Jan 23 17:36:35 donkeypi kernel: [    0.742790] dwc_otg: FIQ enabled
+Jan 23 17:36:35 donkeypi kernel: [    0.742795] dwc_otg: NAK holdoff enabled
+Jan 23 17:36:35 donkeypi kernel: [    0.742800] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 17:36:35 donkeypi kernel: [    0.742810] Module dwc_common_port init
+Jan 23 17:36:35 donkeypi kernel: [    7.702061] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 17:39:06 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 17:39:06 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 17:39:06 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 17:39:06 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 17:39:06 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 17:39:06 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 17:39:06 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 17:39:06 donkeypi kernel: [    0.707382] dwc_otg: Microframe scheduler enabled
+Jan 23 17:39:06 donkeypi kernel: [    0.742730] dwc_otg: FIQ enabled
+Jan 23 17:39:06 donkeypi kernel: [    0.742735] dwc_otg: NAK holdoff enabled
+Jan 23 17:39:06 donkeypi kernel: [    0.742740] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 17:39:06 donkeypi kernel: [    0.742749] Module dwc_common_port init
+Jan 23 17:39:06 donkeypi kernel: [    9.341294] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 17:39:06 donkeypi thd[337]: Found socket passed from systemd
+Jan 23 17:41:34 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 17:41:34 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 17:41:34 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 17:41:34 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 17:41:34 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 17:41:34 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 17:41:34 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 17:41:34 donkeypi thd[301]: Found socket passed from systemd
+Jan 23 17:41:34 donkeypi kernel: [    0.707428] dwc_otg: Microframe scheduler enabled
+Jan 23 17:41:34 donkeypi kernel: [    0.742785] dwc_otg: FIQ enabled
+Jan 23 17:41:34 donkeypi kernel: [    0.742790] dwc_otg: NAK holdoff enabled
+Jan 23 17:41:34 donkeypi kernel: [    0.742795] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 17:41:34 donkeypi kernel: [    0.742805] Module dwc_common_port init
+Jan 23 17:41:34 donkeypi kernel: [    9.369438] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 18:22:01 donkeypi thd[296]: Found socket passed from systemd
+Jan 23 18:22:01 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 18:22:01 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 18:22:01 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 18:22:01 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 18:22:01 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 18:22:01 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 18:22:01 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 18:22:01 donkeypi kernel: [    0.707452] dwc_otg: Microframe scheduler enabled
+Jan 23 18:22:01 donkeypi kernel: [    0.742826] dwc_otg: FIQ enabled
+Jan 23 18:22:01 donkeypi kernel: [    0.742831] dwc_otg: NAK holdoff enabled
+Jan 23 18:22:01 donkeypi kernel: [    0.742836] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 18:22:01 donkeypi kernel: [    0.742846] Module dwc_common_port init
+Jan 23 18:22:01 donkeypi kernel: [   14.531280] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 18:32:05 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 18:32:05 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 18:32:05 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 18:32:05 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 18:32:05 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 18:32:05 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 18:32:05 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 18:32:05 donkeypi kernel: [    0.707441] dwc_otg: Microframe scheduler enabled
+Jan 23 18:32:05 donkeypi kernel: [    0.742805] dwc_otg: FIQ enabled
+Jan 23 18:32:05 donkeypi kernel: [    0.742810] dwc_otg: NAK holdoff enabled
+Jan 23 18:32:05 donkeypi kernel: [    0.742815] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 18:32:05 donkeypi kernel: [    0.742825] Module dwc_common_port init
+Jan 23 18:32:05 donkeypi kernel: [    8.438948] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 18:32:05 donkeypi thd[306]: Found socket passed from systemd
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Jan 23 18:39:00 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 18:39:00 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 18:39:00 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 18:39:00 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 18:39:00 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 18:39:00 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 18:39:00 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 18:39:00 donkeypi kernel: [    0.707393] dwc_otg: Microframe scheduler enabled
+Jan 23 18:39:00 donkeypi kernel: [    0.742755] dwc_otg: FIQ enabled
+Jan 23 18:39:00 donkeypi kernel: [    0.742760] dwc_otg: NAK holdoff enabled
+Jan 23 18:39:00 donkeypi kernel: [    0.742765] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 18:39:00 donkeypi kernel: [    0.742774] Module dwc_common_port init
+Jan 23 18:39:00 donkeypi kernel: [    8.077672] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 23 18:39:00 donkeypi thd[325]: Found socket passed from systemd
+Jan 23 18:48:46 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 23 18:48:46 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 23 18:48:46 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 23 18:48:46 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 23 18:48:46 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 23 18:48:46 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 23 18:48:46 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 23 18:48:46 donkeypi thd[296]: Found socket passed from systemd
+Jan 23 18:48:46 donkeypi kernel: [    0.707413] dwc_otg: Microframe scheduler enabled
+Jan 23 18:48:46 donkeypi kernel: [    0.742756] dwc_otg: FIQ enabled
+Jan 23 18:48:46 donkeypi kernel: [    0.742762] dwc_otg: NAK holdoff enabled
+Jan 23 18:48:46 donkeypi kernel: [    0.742766] dwc_otg: FIQ split-transaction FSM enabled
+Jan 23 18:48:46 donkeypi kernel: [    0.742776] Module dwc_common_port init
+Jan 23 18:48:46 donkeypi kernel: [    9.302207] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 28 15:32:10 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 28 15:32:10 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 28 15:32:10 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 28 15:32:10 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 28 15:32:10 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 28 15:32:10 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 28 15:32:10 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 28 15:32:10 donkeypi kernel: [    0.707429] dwc_otg: Microframe scheduler enabled
+Jan 28 15:32:10 donkeypi kernel: [    0.742792] dwc_otg: FIQ enabled
+Jan 28 15:32:10 donkeypi kernel: [    0.742798] dwc_otg: NAK holdoff enabled
+Jan 28 15:32:10 donkeypi kernel: [    0.742803] dwc_otg: FIQ split-transaction FSM enabled
+Jan 28 15:32:10 donkeypi kernel: [    0.742814] Module dwc_common_port init
+Jan 28 15:32:10 donkeypi kernel: [    9.345446] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 28 15:32:10 donkeypi thd[316]: Found socket passed from systemd
+Jan 28 15:38:52 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 28 15:38:52 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 28 15:38:52 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 28 15:38:52 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 28 15:38:52 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 28 15:38:52 donkeypi kerJan 28 15:38:52 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Jan 28 15:38:52 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Jan 28 15:38:52 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Jan 28 15:38:52 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 28 15:38:52 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Jan 28 15:38:52 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jan 28 15:38:52 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 28 15:38:52 donkeypi kernel: [    0.707445] dwc_otg: Microframe scheduler enabled
+Jan 28 15:38:52 donkeypi kernel: [    0.742820] dwc_otg: FIQ enabled
+Jan 28 15:38:52 donkeypi kernel: [    0.742825] dwc_otg: NAK holdoff enabled
+Jan 28 15:38:52 donkeypi kernel: [    0.742830] dwc_otg: FIQ split-transaction FSM enabled
+Jan 28 15:38:52 donkeypi kernel: [    0.742840] Module dwc_common_port init
+Jan 28 15:38:52 donkeypi kernel: [    8.483410] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 28 15:38:52 donkeypi thd[309]: Found socket passed from systemd
+Feb 13 18:25:37 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 18:25:37 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 18:25:37 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 18:25:37 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 18:25:37 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 18:25:37 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 18:25:37 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 18:25:37 donkeypi kernel: [    0.707534] dwc_otg: Microframe scheduler enabled
+Feb 13 18:25:37 donkeypi kernel: [    0.742926] dwc_otg: FIQ enabled
+Feb 13 18:25:37 donkeypi kernel: [    0.742931] dwc_otg: NAK holdoff enabled
+Feb 13 18:25:37 donkeypi kernel: [    0.742936] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 18:25:37 donkeypi kernel: [    0.742945] Module dwc_common_port init
+Feb 13 18:25:37 donkeypi kernel: [    6.607030] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Feb 13 18:25:37 donkeypi thd[350]: Found socket passed from systemd
+Feb 13 18:31:05 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 18:31:05 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 18:31:05 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 18:31:05 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 18:31:05 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 18:31:05 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 18:31:05 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 18:31:05 donkeypi kernel: [    0.707570] dwc_otg: Microframe scheduler enabled
+Feb 13 18:31:05 donkeypi kernel: [    0.742932] dwc_otg: FIQ enabled
+Feb 13 18:31:05 donkeypi kernel: [    0.742937] dwc_otg: NAK holdoff enabled
+Feb 13 18:31:05 donkeypi kernel: [    0.742942] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 18:31:05 donkeypi kernel: [    0.742952] Module dwc_common_port init
+Feb 13 18:31:05 donkeypi kernel: [    8.959560] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Feb 13 18:31:05 donkeypi thd[323]: Found socket passed from systemd
+Feb 13 18:47:55 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 18:47:55 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 18:47:55 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 18:47:55 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 18:47:55 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 18:47:55 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 18:47:55 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 18:47:55 donkeypi kernel: [    0.707409] dwc_otg: Microframe scheduler enabled
+Feb 13 18:47:55 donkeypi kernel: [    0.742855] dwc_otg: FIQ enabled
+Feb 13 18:47:55 donkeypi kernel: [    0.742860] dwc_otg: NAK holdoff enabled
+Feb 13 18:47:55 donkeypi kernel: [    0.742865] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 18:47:55 donkeypi kernel: [    0.742875] Module dwc_common_port init
+Feb 13 18:47:55 donkeypi thd[325]: Found socket passed from systemd
+Feb 13 18:47:55 donkeypi kernel: [   12.051755] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Feb 13 20:28:25 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 20:28:25 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 20:28:25 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 20:28:25 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 20:28:25 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 20:28:25 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 20:28:25 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 20:28:25 donkeypi kernel: [    0.707376] dwc_otg: Microframe scheduler enabled
+Feb 13 20:28:25 donkeypi kernel: [    0.742734] dwc_otg: FIQ enabled
+Feb 13 20:28:25 donkeypi kernel: [    0.742740] dwc_otg: NAK holdoff enabled
+Feb 13 20:28:25 donkeypi kernel: [    0.742744] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 20:28:25 donkeypi kernel: [    0.742754] Module dwc_common_port init
+Feb 13 20:28:25 donkeypi kernel: [    3.738708] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Feb 13 20:28:25 donkeypi thd[330]: Found socket passed from systemd
+Feb 13 20:37:39 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 20:37:39 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 20:37:39 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 20:37:39 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 20:37:39 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 20:37:39 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 20:37:39 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 20:37:39 donkeypi thd[300]: Found socket passed from systemd
+Feb 13 20:37:39 donkeypi kernel: [    0.707426] dwc_otg: Microframe scheduler enabled
+Feb 13 20:37:39 donkeypi kernel: [    0.742755] dwc_otg: FIQ enabled
+Feb 13 20:37:39 donkeypi kernel: [    0.742761] dwc_otg: NAK holdoff enabled
+Feb 13 20:37:39 donkeypi kernel: [    0.742766] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 20:37:39 donkeypi kernel: [    0.742775] Module dwc_common_port init
+Feb 13 20:37:39 donkeypi kernel: [    9.575483] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Feb 13 21:26:23 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 21:26:23 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 21:26:23 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 21:26:23 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 21:26:23 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 21:26:23 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 21:26:23 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 21:26:23 donkeypi thd[293]: Found socket passed from systemd
+Feb 13 21:26:23 donkeypi kernel: [    0.707452] dwc_otg: Microframe scheduler enabled
+Feb 13 21:26:23 donkeypi kernel: [    0.742743] dwc_otg: FIQ enabled
+Feb 13 21:26:23 donkeypi kernel: [    0.742748] dwc_otg: NAK holdoff enabled
+Feb 13 21:26:23 donkeypi kernel: [    0.742752] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 21:26:23 donkeypi kernel: [    0.742762] Module dwc_common_port init
+Feb 13 21:26:22 donkeypi kernel: [    0.000000] On node 0 totalpages: 229376
+Feb 13 21:26:22 donkeypi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map b7016000
+Feb 13 21:26:22 donkeypi kernel: [    0.000000]   Normal zone: 2016 pages used for memmap
+Feb 13 21:26:22 donkeypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb 13 21:26:22 donkeypi kernel: [    0.000000]   Normal zone: 229376 pages, LIFO batch:31
+Feb 13 21:26:22 donkeypi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Feb 13 21:26:22 donkeypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb 13 21:26:22 donkeypi kernel: [    0.707397] dwc_otg: Microframe scheduler enabled
+Feb 13 21:26:22 donkeypi thd[300]: Found socket passed from systemd
+Feb 13 21:26:22 donkeypi kernel: [    0.742789] dwc_otg: FIQ enabled
+Feb 13 21:26:22 donkeypi kernel: [    0.742794] dwc_otg: NAK holdoff enabled
+Feb 13 21:26:22 donkeypi kernel: [    0.742799] dwc_otg: FIQ split-transaction FSM enabled
+Feb 13 21:26:22 donkeypi kernel: [    0.742808] Module dwc_common_port init
+Feb 13 21:26:22 donkeypi kernel: [    9.256942] brcmfmac: F1 signature read @0x18000000=0x1541a9a6

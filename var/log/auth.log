@@ -1,0 +1,316 @@
+Apr 18 01:08:13 raspberrypi systemd-logind[322]: New seat seat0.
+Apr 18 01:08:30 raspberrypi sshd[686]: Server listening on 0.0.0.0 port 22.
+Apr 18 01:08:30 raspberrypi sshd[686]: Server listening on :: port 22.
+Apr 18 01:08:36 raspberrypi sshd[715]: Connection closed by 10.0.0.2 port 39854 [preauth]
+Jun 11 00:15:57 raspberrypi sshd[784]: Accepted password for pi from 10.0.0.2 port 39856 ssh2
+Jun 11 00:15:57 raspberrypi sshd[784]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun 11 00:15:58 raspberrypi systemd-logind[322]: New session c1 of user pi.
+Jun 11 00:15:58 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jun 11 00:16:07 raspberrypi sshd[877]: Accepted password for pi from 10.0.0.2 port 39858 ssh2
+Jun 11 00:16:07 raspberrypi sshd[877]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun 11 00:16:07 raspberrypi systemd-logind[322]: New session c2 of user pi.
+Jun 11 00:16:07 raspberrypi sshd[902]: Received disconnect from 10.0.0.2 port 39858:11: disconnected by user
+Jun 11 00:16:07 raspberrypi sshd[902]: Disconnected from 10.0.0.2 port 39858
+Jun 11 00:16:07 raspberrypi sshd[877]: pam_unix(sshd:session): session closed for user pi
+Jun 11 00:16:07 raspberrypi systemd-logind[322]: Removed session c2.
+Jun 11 00:17:01 raspberrypi CRON[1141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 00:17:01 raspberrypi CRON[1141]: pam_unix(cron:session): session closed for user root
+Jun 11 00:18:09 raspberrypi sshd[1410]: Accepted password for pi from 10.0.0.2 port 39864 ssh2
+Jun 11 00:18:09 raspberrypi sshd[1410]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun 11 00:18:09 raspberrypi systemd-logind[322]: New session c3 of user pi.
+Jun 11 00:18:09 raspberrypi sshd[1435]: Received disconnect from 10.0.0.2 port 39864:11: disconnected by user
+Jun 11 00:18:09 raspberrypi sshd[1435]: Disconnected from 10.0.0.2 port 39864
+Jun 11 00:18:09 raspberrypi sshd[1410]: pam_unix(sshd:session): session closed for user pi
+Jun 11 00:18:09 raspberrypi systemd-logind[322]: Removed session c3.
+Jun 11 00:18:19 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt update -y
+Jun 11 00:18:19 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:18:35 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:18:35 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Jun 11 00:18:35 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:19:04 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:19:04 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/rpi-update -y
+Jun 11 00:19:04 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:19:05 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:19:05 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install build-essential python3-dev python3-distlib python3-setuptools python3-pip python3-wheel -y
+Jun 11 00:19:05 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:19:55 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:19:55 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get install git cmake pkg-config -y
+Jun 11 00:19:55 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:20:27 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:20:27 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev -y
+Jun 11 00:20:27 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:20:45 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:20:45 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
+Jun 11 00:20:45 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:22:07 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:22:07 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libxvidcore-dev libx264-dev -y
+Jun 11 00:22:07 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:22:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:22:15 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libatlas-base-dev gfortran -y
+Jun 11 00:22:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:22:41 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:22:41 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install libzmq-dev -y
+Jun 11 00:22:41 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:22:51 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:22:51 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install xsel xclip -y
+Jun 11 00:22:51 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:23:04 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:23:04 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install python3-h5py -y
+Jun 11 00:23:04 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:23:23 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:23:23 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install libxml2-dev python3-lxml -y
+Jun 11 00:23:23 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:24:17 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:24:17 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install libxslt-dev -y
+Jun 11 00:24:17 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:24:25 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:24:25 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get remove python2.7 -y
+Jun 11 00:24:25 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:24:32 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:24:32 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt-get autoremove -y
+Jun 11 00:24:32 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:24:39 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:24:39 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install redis-server -y
+Jun 11 00:24:39 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:24:49 raspberrypi groupadd[8907]: group added to /etc/group: name=redis, GID=113
+Jun 11 00:24:49 raspberrypi groupadd[8907]: group added to /etc/gshadow: name=redis
+Jun 11 00:24:49 raspberrypi groupadd[8907]: new group: name=redis, GID=113
+Jun 11 00:24:50 raspberrypi useradd[8912]: new user: name=redis, UID=109, GID=113, home=/var/lib/redis, shell=/bin/false
+Jun 11 00:24:50 raspberrypi usermod[8918]: change user 'redis' password
+Jun 11 00:24:50 raspberrypi chage[8924]: changed password expiry for redis
+Jun 11 00:24:53 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:24:53 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/bin/bash make_virtual_env.sh
+Jun 11 00:24:53 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:24:53 raspberrypi sudo:     root : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install virtualenv -y
+Jun 11 00:24:53 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:25:01 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:25:27 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:25:27 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/install/pi ; USER=root ; COMMAND=/usr/bin/apt install virtualenv -y
+Jun 11 00:25:27 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:25:29 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:29:30 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/raspi-config
+Jun 11 00:29:30 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:29:40 raspberrypi su[10672]: Successful su for pi by root
+Jun 11 00:29:40 raspberrypi su[10672]: + /dev/pts/0 root:pi
+Jun 11 00:29:40 raspberrypi su[10672]: pam_unix(su:session): session opened for user pi by pi(uid=0)
+Jun 11 00:29:40 raspberrypi su[10672]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 11 00:29:40 raspberrypi su[10672]: pam_unix(su:session): session closed for user pi
+Jun 11 00:29:41 raspberrypi su[10686]: Successful su for pi by root
+Jun 11 00:29:41 raspberrypi su[10686]: + /dev/pts/0 root:pi
+Jun 11 00:29:41 raspberrypi su[10686]: pam_unix(su:session): session opened for user pi by pi(uid=0)
+Jun 11 00:29:41 raspberrypi su[10686]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 11 00:29:41 raspberrypi su[10686]: pam_unix(su:session): session closed for user pi
+Jun 11 00:29:47 raspberrypi su[10742]: Successful su for pi by root
+Jun 11 00:29:47 raspberrypi su[10742]: + /dev/pts/0 root:pi
+Jun 11 00:29:47 raspberrypi su[10742]: pam_unix(su:session): session opened for user pi by pi(uid=0)
+Jun 11 00:29:47 raspberrypi su[10742]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 11 00:29:47 raspberrypi su[10742]: pam_unix(su:session): session closed for user pi
+Jun 11 00:29:47 raspberrypi su[10756]: Successful su for pi by root
+Jun 11 00:29:47 raspberrypi su[10756]: + /dev/pts/0 root:pi
+Jun 11 00:29:47 raspberrypi su[10756]: pam_unix(su:session): session opened for user pi by pi(uid=0)
+Jun 11 00:29:47 raspberrypi su[10756]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 11 00:29:47 raspberrypi su[10756]: pam_unix(su:session): session closed for user pi
+Jun 11 00:31:07 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:31:16 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/wpa_supplicant/wpa_supplicant.conf
+Jun 11 00:31:16 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:31:19 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:32:08 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/wpa_supplicant/wpa_supplicant.conf
+Jun 11 00:32:08 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 00:35:06 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 01:04:34 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Jun 11 01:04:34 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 01:05:03 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 01:05:09 raspberrypi sudo:       pi : unable to resolve host raspberrypi
+Jun 11 01:05:09 raspberrypi sudo:       pi : problem with defaults entries ; TTY=pts/0 ; PWD=/home/pi ; USER=root ;
+Jun 11 01:05:09 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Jun 11 01:05:09 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 01:05:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 01:05:22 raspberrypi sudo:       pi : unable to resolve host raspberrypi
+Jun 11 01:05:22 raspberrypi sudo:       pi : problem with defaults entries ; TTY=pts/0 ; PWD=/home/pi ; USER=root ;
+Jun 11 01:05:23 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Jun 11 01:05:23 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 01:05:23 raspberrypi sshd[686]: Received signal 15; terminating.
+Jun 11 01:05:23 raspberrypi sshd[784]: pam_unix(sshd:session): session closed for user pi
+Jun 11 01:05:23 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 01:05:27 donkeypi systemd-logind[312]: New seat seat0.
+Jun 11 01:05:32 donkeypi sshd[511]: Server listening on 0.0.0.0 port 22.
+Jun 11 01:05:32 donkeypi sshd[511]: Server listening on :: port 22.
+Jun 11 01:17:01 donkeypi CRON[3422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 01:17:01 donkeypi CRON[3422]: pam_unix(cron:session): session closed for user root
+Jun 11 02:17:01 donkeypi CRON[17718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 02:17:01 donkeypi CRON[17718]: pam_unix(cron:session): session closed for user root
+Jun 11 03:17:01 donkeypi CRON[32014]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 03:17:01 donkeypi CRON[32014]: pam_unix(cron:session): session closed for user root
+Jun 11 04:17:01 donkeypi CRON[13865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 04:17:01 donkeypi CRON[13865]: pam_unix(cron:session): session closed for user root
+Jun 11 05:06:53 donkeypi sshd[25742]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.2  user=pi
+Jun 11 05:06:55 donkeypi sshd[25742]: Failed password for pi from 10.0.0.2 port 42240 ssh2
+Jun 11 05:06:58 donkeypi sshd[25742]: Accepted password for pi from 10.0.0.2 port 42240 ssh2
+Jun 11 05:06:58 donkeypi sshd[25742]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun 11 05:06:58 donkeypi systemd-logind[312]: New session c1 of user pi.
+Jun 11 05:06:58 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jun 11 05:07:17 donkeypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Jun 11 05:07:17 donkeypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 05:07:17 donkeypi sshd[25742]: pam_unix(sshd:session): session closed for user pi
+Jun 11 05:07:17 donkeypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 05:07:21 donkeypi systemd-logind[302]: New seat seat0.
+Jun 11 05:07:26 donkeypi sshd[557]: Server listening on 0.0.0.0 port 22.
+Jun 11 05:07:26 donkeypi sshd[557]: Server listening on :: port 22.
+Jun 11 05:10:41 donkeypi sshd[1026]: Accepted password for pi from 10.0.0.2 port 47176 ssh2
+Jun 11 05:10:41 donkeypi sshd[1026]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun 11 05:10:41 donkeypi systemd-logind[302]: New session c1 of user pi.
+Jun 11 05:10:41 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jun 11 05:11:54 donkeypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Jun 11 05:11:54 donkeypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 05:11:54 donkeypi sshd[557]: Received signal 15; terminating.
+Jun 11 05:12:03 donkeypi systemd-logind[341]: New seat seat0.
+Jun 11 05:12:08 donkeypi sshd[532]: Server listening on 0.0.0.0 port 22.
+Jun 11 05:12:08 donkeypi sshd[532]: Server listening on :: port 22.
+Jun 11 06:08:05 donkeypi sshd[962]: Accepted password for pi from 10.0.0.2 port 43374 ssh2
+Jun 11 06:08:05 donkeypi sshd[962]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun 11 06:08:05 donkeypi systemd-logind[341]: New session c1 of user pi.
+Jun 11 06:08:05 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jun 11 06:08:13 donkeypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/modules
+Jun 11 06:08:13 donkeypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 06:08:29 donkeypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 06:09:11 donkeypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/shutdown now
+Jun 11 06:09:11 donkeypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun 11 06:09:11 donkeypi sshd[962]: pam_unix(sshd:session): session closed for user pi
+Jun 11 06:09:11 donkeypi sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 06:09:15 donkeypi systemd-logind[301]: New seat seat0.
+Jun 11 06:09:46 donkeypi sshd[466]: Server listening on 0.0.0.0 port 22.
+Jun 11 06:09:46 donkeypi sshd[466]: Server listening on :: port 22.
+Jun 11 06:09:20 donkeypi systemd-logind[352]: New seat seat0.
+Jun 11 06:09:51 donkeypi sshd[524]: Server listening on 0.0.0.0 port 22.
+Jun 11 06:09:51 donkeypi sshd[524]: Server listening on :: port 22.
+Jun 11 06:09:15 donkeypi systemd-logind[297]: New seat seat0.
+Jun 11 06:09:47 donkeypi sshd[457]: Server listening on 0.0.0.0 port 22.
+Jun 11 06:09:47 donkeypi sshd[457]: Server listening on :: port 22.
+Jun 11 06:17:01 donkeypi CRON[476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 06:17:01 donkeypi CRON[476]: pam_unix(cron:session): session closed for user root
+Jun 11 06:25:01 donkeypi CRON[494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 06:25:17 donkeypi CRON[494]: pam_unix(cron:session): session closed for user root
+Jun 11 06:17:03 donkeypi systemd-logind[314]: New seat seat0.
+Jun 11 06:17:14 donkeypi sshd[575]: Server listening on 0.0.0.0 port 22.
+Jun 11 06:17:14 donkeypi sshd[575]: Server listening on :: port 22.
+Jan 23 17:36:35 donkeypi systemd-logind[354]: New seat seat0.
+Jan 23 17:36:40 donkeypi sshd[559]: Server listening on 0.0.0.0 port 22.
+Jan 23 17:36:40 donkeypi sshd[559]: Server listening on :: port 22.
+Jan 23 17:39:07 donkeypi systemd-logind[338]: New seat seat0.
+Jan 23 17:39:16 donkeypi sshd[566]: Server listening on 0.0.0.0 port 22.
+Jan 23 17:39:16 donkeypi sshd[566]: Server listening on :: port 22.
+Jan 23 17:41:34 donkeypi systemd-logind[307]: New seat seat0.
+Jan 23 17:41:40 donkeypi sshd[518]: Server listening on 0.0.0.0 port 22.
+Jan 23 17:41:40 donkeypi sshd[518]: Server listening on :: port 22.
+Jan 23 17:55:48 donkeypi sshd[585]: Accepted password for pi from 192.168.43.173 port 53850 ssh2
+Jan 23 17:55:48 donkeypi sshd[585]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 23 17:55:48 donkeypi systemd-logind[307]: New session c1 of user pi.
+Jan 23 17:55:48 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 23 18:17:01 donkeypi CRON[705]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 23 18:17:01 donkeypi CRON[705]: pam_unix(cron:session): session closed for user root
+Jan 23 18:22:01 donkeypi systemd-logind[306]: New seat seat0.
+Jan 23 18:22:09 donkeypi sshd[505]: Server listening on 0.0.0.0 port 22.
+Jan 23 18:22:09 donkeypi sshd[505]: Server listening on :: port 22.
+Jan 23 18:32:32 donkeypi sshd[588]: Accepted password for pi from 192.168.43.173 port 43758 ssh2
+Jan 23 18:32:32 donkeypi sshd[588]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 23 18:32:32 donkeypi systemd-logind[306]: New session c1 of user pi.
+Jan 23 18:32:32 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 23 18:32:05 donkeypi systemd-logind[314]: New seat seat0.
+Jan 23 18:32:12 donkeypi sshd[514]: Server listening on 0.0.0.0 port 22.
+Jan 23 18:32:12 donkeypi sshd[514]: Server listening on :: port 22.
+Jan 23 18:32:18 donkeypi sshd[575]: Accepted password for pi from 192.168.43.173 port 44406 ssh2
+Jan 23 18:32:18 donkeypi sshd[575]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 23 18:32:18 donkeypi systemd-logind[314]: New session c1 of user pi.
+Jan 23 18:32:18 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+                                                                                                                                                                                                           Jan 23 18:39:00 donkeypi systemd-logind[324]: New seat seat0.
+Jan 23 18:39:06 donkeypi sshd[503]: Server listening on 0.0.0.0 port 22.
+Jan 23 18:39:06 donkeypi sshd[503]: Server listening on :: port 22.
+Jan 23 18:43:26 donkeypi sshd[618]: Accepted password for pi from 192.168.43.173 port 49124 ssh2
+Jan 23 18:43:26 donkeypi sshd[618]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 23 18:43:26 donkeypi systemd-logind[324]: New session c1 of user pi.
+Jan 23 18:43:26 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 23 18:48:47 donkeypi systemd-logind[297]: New seat seat0.
+Jan 23 18:48:53 donkeypi sshd[511]: Server listening on 0.0.0.0 port 22.
+Jan 23 18:48:53 donkeypi sshd[511]: Server listening on :: port 22.
+Jan 28 15:32:10 donkeypi systemd-logind[307]: New seat seat0.
+Jan 28 15:32:17 donkeypi sshd[515]: Server listening on 0.0.0.0 port 22.
+Jan 28 15:32:17 donkeypi sshd[515]: Server listening on :: port 22.
+Jan 28 15:37:31 donkeypi sshd[586]: Accepted password for pi from 192.168.43.173 port 34124 ssh2
+Jan 28 15:37:31 donkeypi sshd[586]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 28 15:37:31 donkeypi systemd-logind[307]: New session c1 of user pi.
+Jan 28 15:37:31 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 28 15:38:52 donkeypi systemd-logind[321]: New seat seat0.
+Jan 28 15:38:52 donkeypi systemd-logind[304]: New seat seat0.
+Jan 28 15:38:58 donkeypi sshd[596]: Server listening on 0.0.0.0 port 22.
+Jan 28 15:38:58 donkeypi sshd[596]: Server listening on :: port 22.
+Feb 13 18:26:40 donkeypi sshd[786]: Accepted password for pi from 192.168.43.173 port 45820 ssh2
+Feb 13 18:26:40 donkeypi sshd[786]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 13 18:26:40 donkeypi systemd-logind[304]: New session c1 of user pi.
+Feb 13 18:26:40 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Feb 13 18:25:38 donkeypi systemd-logind[304]: New seat seat0.
+Feb 13 18:25:46 donkeypi sshd[591]: Server listening on 0.0.0.0 port 22.
+Feb 13 18:25:46 donkeypi sshd[591]: Server listening on :: port 22.
+Feb 13 18:25:58 donkeypi sshd[670]: Accepted password for pi from 192.168.43.173 port 46666 ssh2
+Feb 13 18:25:58 donkeypi sshd[670]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 13 18:25:58 donkeypi systemd-logind[304]: New session c1 of user pi.
+Feb 13 18:25:58 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Feb 13 18:31:05 donkeypi systemd-logind[359]: New seat seat0.
+Feb 13 18:31:12 donkeypi sshd[525]: Server listening on 0.0.0.0 port 22.
+Feb 13 18:31:12 donkeypi sshd[525]: Server listening on :: port 22.
+Feb 13 18:40:10 donkeypi sshd[597]: Accepted password for pi from 192.168.43.173 port 48794 ssh2
+Feb 13 18:40:10 donkeypi sshd[597]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 13 18:40:10 donkeypi systemd-logind[359]: New session c1 of user pi.
+Feb 13 18:40:10 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Feb 13 18:42:15 donkeypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/mycar ; USER=root ; COMMAND=/usr/bin/apt-get install vim
+Feb 13 18:42:15 donkeypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Feb 13 18:45:01 donkeypi sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 18:47:55 donkeypi systemd-logind[346]: New seat seat0.
+Feb 13 18:48:03 donkeypi sshd[530]: Server listening on 0.0.0.0 port 22.
+Feb 13 18:48:03 donkeypi sshd[530]: Server listening on :: port 22.
+Feb 13 18:48:11 donkeypi sshd[593]: Accepted password for pi from 192.168.43.173 port 36810 ssh2
+Feb 13 18:48:11 donkeypi sshd[593]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 13 18:48:11 donkeypi systemd-logind[346]: New session c1 of user pi.
+Feb 13 18:48:11 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Feb 13 20:28:25 donkeypi systemd-logind[298]: New seat seat0.
+Feb 13 20:28:40 donkeypi sshd[606]: Server listening on 0.0.0.0 port 22.
+Feb 13 20:28:40 donkeypi sshd[606]: Server listening on :: port 22.
+Feb 13 20:28:54 donkeypi sshd[644]: Accepted password for pi from 192.168.43.173 port 38958 ssh2
+Feb 13 20:28:54 donkeypi sshd[644]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 13 20:28:54 donkeypi systemd-logind[298]: New session c1 of user pi.
+Feb 13 20:28:54 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      Feb 13 20:37:40 donkeypi systemd-logind[303]: New seat seat0.
+Feb 13 20:37:46 donkeypi sshd[511]: Server listening on 0.0.0.0 port 22.
+Feb 13 20:37:46 donkeypi sshd[511]: Server listening on :: port 22.
+Feb 13 21:06:11 donkeypi sshd[575]: Accepted password for pi from 192.168.43.173 port 43498 ssh2
+Feb 13 21:06:11 donkeypi sshd[575]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 13 21:06:11 donkeypi systemd-logind[303]: New session c1 of user pi.
+Feb 13 21:06:11 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Feb 13 21:17:01 donkeypi CRON[659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 21:17:01 donkeypi CRON[659]: pam_unix(cron:session): session closed for user root
+Feb 13 21:26:23 donkeypi systemd-logind[304]: New seat seat0.
+Feb 13 21:26:53 donkeypi sshd[427]: Server listening on 0.0.0.0 port 22.
+Feb 13 21:26:53 donkeypi sshd[427]: Server listening on :: port 22.
+Feb 13 21:26:23 donkeypi systemd-logind[296]: New seat seat0.
+Feb 13 21:26:36 donkeypi sshd[515]: Server listening on 0.0.0.0 port 22.
+Feb 13 21:26:36 donkeypi sshd[515]: Server listening on :: port 22.
+Feb 25 15:24:04 donkeypi sshd[688]: Accepted password for pi from 192.168.43.173 port 45348 ssh2
+Feb 25 15:24:04 donkeypi sshd[688]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 25 15:24:04 donkeypi systemd-logind[296]: New session c1 of user pi.
+Feb 25 15:24:04 donkeypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Feb 25 15:26:29 donkeypi sshd[728]: Accepted password for pi from 192.168.43.173 port 45780 ssh2
+Feb 25 15:26:29 donkeypi sshd[728]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 25 15:26:29 donkeypi systemd-logind[296]: New session c2 of user pi.
+Feb 25 15:26:29 donkeypi sshd[739]: Received disconnect from 192.168.43.173 port 45780:11: disconnected by user
+Feb 25 15:26:29 donkeypi sshd[739]: Disconnected from 192.168.43.173 port 45780
+Feb 25 15:26:29 donkeypi sshd[728]: pam_unix(sshd:session): session closed for user pi
+Feb 25 15:26:29 donkeypi systemd-logind[296]: Removed session c2.
+Feb 25 15:26:54 donkeypi sshd[746]: Accepted password for pi from 192.168.43.173 port 45902 ssh2
+Feb 25 15:26:54 donkeypi sshd[746]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 25 15:26:54 donkeypi systemd-logind[296]: New session c3 of user pi.
+Feb 25 15:26:55 donkeypi sshd[757]: Received disconnect from 192.168.43.173 port 45902:11: disconnected by user
+Feb 25 15:26:55 donkeypi sshd[757]: Disconnected from 192.168.43.173 port 45902
+Feb 25 15:26:55 donkeypi sshd[746]: pam_unix(sshd:session): session closed for user pi
+Feb 25 15:26:55 donkeypi systemd-logind[296]: Removed session c3.
+Feb 25 15:27:39 donkeypi sshd[764]: Accepted password for pi from 192.168.43.173 port 46130 ssh2
+Feb 25 15:27:39 donkeypi sshd[764]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Feb 25 15:27:39 donkeypi systemd-logind[296]: New session c4 of user pi.

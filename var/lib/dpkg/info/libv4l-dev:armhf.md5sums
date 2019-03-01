@@ -1,0 +1,14 @@
+8d00aeb84f5284eaa0ffa249039db584  usr/include/libv4l-plugin.h
+d8e0783226cbc9125dac9daa884b48ec  usr/include/libv4l1-videodev.h
+b9c612f59ea8b667fa892049af3d696e  usr/include/libv4l1.h
+b510dae93263759e75a95fe59ff0b809  usr/include/libv4l2.h
+0be0a8233a8d72efdb689625a3e02a09  usr/include/libv4l2rds.h
+9e21aa1833fda76d5b1111f197a5948d  usr/include/libv4lconvert.h
+e96a4655c7e1b7260f056524e2be7ff2  usr/lib/arm-linux-gnueabihf/libv4l1.a
+aab854b102689c4c86c73ab9312c90c6  usr/lib/arm-linux-gnueabihf/libv4l2.a
+b4fbe89df7af1f94b4dd4c6ad388b035  usr/lib/arm-linux-gnueabihf/libv4l2rds.a
+b307ddda95c83baf2ce92f29c351dbde  usr/lib/arm-linux-gnueabihf/libv4lconvert.a
+70feeed3e52e32c28fea2ce09b13c36f  usr/lib/arm-linux-gnueabihf/pkgconfig/libv4l1.pc
+875dcbc222b1da89d460fbd1ada7c963  usr/lib/arm-linux-gnueabihf/pkgconfig/libv4l2.pc
+424d5cae6861e66be0d5df94ce944504  usr/lib/arm-linux-gnueabihf/pkgconfig/libv4l2rds.pc
+f8a35a7e60ed1143347abd10a7a4adb1  usr/lib/arm-linux-gnueabihf/pkgconfig/libv4lconvert.pc

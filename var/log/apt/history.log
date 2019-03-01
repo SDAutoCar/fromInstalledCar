@@ -1,0 +1,102 @@
+
+Start-Date: 2018-06-11  00:18:45
+Commandline: apt upgrade -y
+Requested-By: pi (1000)
+Upgrade: libcurl3:armhf (7.52.1-5+deb9u5, 7.52.1-5+deb9u6), gnupg-agent:armhf (2.1.18-8~deb9u1, 2.1.18-8~deb9u2), raspi-config:armhf (20180406+1, 20180518), pi-bluetooth:armhf (0.1.7, 0.1.8), procps:armhf (2:3.3.12-3, 2:3.3.12-3+deb9u1), libprocps6:armhf (2:3.3.12-3, 2:3.3.12-3+deb9u1), bluez-firmware:armhf (1.2-3+rpt4.1, 1.2-3+rpt6), gpgv:armhf (2.1.18-8~deb9u1, 2.1.18-8~deb9u2), wget:armhf (1.18-5+deb9u1, 1.18-5+deb9u2), gnupg:armhf (2.1.18-8~deb9u1, 2.1.18-8~deb9u2), curl:armhf (7.52.1-5+deb9u5, 7.52.1-5+deb9u6), libcurl3-gnutls:armhf (7.52.1-5+deb9u5, 7.52.1-5+deb9u6)
+End-Date: 2018-06-11  00:19:04
+
+Start-Date: 2018-06-11  00:19:21
+Commandline: apt install build-essential python3-dev python3-distlib python3-setuptools python3-pip python3-wheel -y
+Requested-By: pi (1000)
+Install: python3-dev:armhf (3.5.3-1), libgirepository-1.0-1:armhf (1.50.0-1, automatic), libexpat1-dev:armhf (2.2.0-2+deb9u1, automatic), python3-pip:armhf (9.0.1-2+rpt2), python3-keyring:armhf (10.1-1, automatic), python3-wheel:armhf (0.29.0-2), python3-idna:armhf (2.2-1, automatic), python3-six:armhf (1.10.0-3, automatic), python3.5-dev:armhf (3.5.3-1, automatic), python3-distlib:armhf (0.2.4-1), python3-xdg:armhf (0.25-4, automatic), python3-cryptography:armhf (1.7.1-3+b2, automatic), gir1.2-glib-2.0:armhf (1.50.0-1, automatic), python3-cffi-backend:armhf (1.9.1-2, automatic), python3-pkg-resources:armhf (33.1.1-1, automatic), libpython3.5-dev:armhf (3.5.3-1, automatic), libdbus-glib-1-2:armhf (0.108-2, automatic), python3-dbus:armhf (1.2.4-1, automatic), python3-keyrings.alt:armhf (1.3-1, automatic), python3-gi:armhf (3.22.0-2, automatic), python3-crypto:armhf (2.6.1-7, automatic), libpython3-dev:armhf (3.5.3-1, automatic), python3-secretstorage:armhf (2.3.1-2, automatic), python-pip-whl:armhf (9.0.1-2+rpt2, automatic), python3-setuptools:armhf (33.1.1-1), python3-pyasn1:armhf (0.1.9-2, automatic)
+End-Date: 2018-06-11  00:19:55
+
+Start-Date: 2018-06-11  00:20:15
+Commandline: apt-get install git cmake pkg-config -y
+Requested-By: pi (1000)
+Install: git-man:armhf (1:2.11.0-3+deb9u3, automatic), libarchive13:armhf (3.2.2-2, automatic), git:armhf (1:2.11.0-3+deb9u3), cmake-data:armhf (3.7.2-1, automatic), libuv1:armhf (1.9.1-3, automatic), cmake:armhf (3.7.2-1), libjsoncpp1:armhf (1.7.4-3, automatic), liblzo2-2:armhf (2.08-1.2, automatic), liberror-perl:armhf (0.17024-1, automatic)
+End-Date: 2018-06-11  00:20:27
+
+Start-Date: 2018-06-11  00:20:38
+Commandline: apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev -y
+Requested-By: pi (1000)
+Install: libjpeg-dev:armhf (1:1.5.1-2), libjpeg62-turbo-dev:armhf (1:1.5.1-2, automatic), libpng12-dev:armhf (1.2.54-6), libtiff5-dev:armhf (4.0.8-2+deb9u2), libtiff5:armhf (4.0.8-2+deb9u2, automatic), libjbig-dev:armhf (2.1-3.1, automatic), libjbig0:armhf (2.1-3.1, automatic), libjasper1:armhf (1.900.1-debian1-2.4+deb8u1, automatic), libpng12-0:armhf (1.2.54-6, automatic), liblzma-dev:armhf (5.2.2-1.2, automatic), libjasper-dev:armhf (1.900.1-debian1-2.4+deb8u1), libtiffxx5:armhf (4.0.8-2+deb9u2, automatic)
+Remove: libpng-dev:armhf (1.6.28-1), libfreetype6-dev:armhf (2.6.3-3.2)
+End-Date: 2018-06-11  00:20:44
+
+Start-Date: 2018-06-11  00:21:27
+Commandline: apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
+Requested-By: pi (1000)
+Install: libwebp6:armhf (0.5.2-1, automatic), libavformat57:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libsnappy1v5:armhf (1.1.3-3, automatic), libopenjp2-7:armhf (2.1.2-1.1+deb9u2, automatic), libdrm-freedreno1:armhf (2.4.74-1, automatic), libchromaprint1:armhf (1.4.2-1, automatic), libdrm-nouveau2:armhf (2.4.74-1, automatic), va-driver-all:armhf (1.7.3-2, automatic), libswresample2:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libtxc-dxtn-s2tc:armhf (1.0+git20151227-2, automatic), libxcb-present0:armhf (1.12-1, automatic), libglapi-mesa:armhf (13.0.6-1+rpi2, automatic), libpixman-1-0:armhf (0.34.0-1, automatic), libxrender1:armhf (1:0.9.10-1, automatic), libogg0:armhf (1.3.2-1, automatic), libopenmpt0:armhf (0.2.7386~beta20.3-3+deb9u2, automatic), libvdpau1:armhf (1.1.1-6, automatic), libmp3lame0:armhf (3.99.5+repack1-9, automatic), libavformat-dev:armhf (7:3.2.10-1~deb9u1+rpt1), libvorbisfile3:armhf (1.3.5-4+deb9u2, automatic), libxcb-shm0:armhf (1.12-1, automatic), libxcb-render0:armhf (1.12-1, automatic), libswresample-dev:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libwavpack1:armhf (5.0.0-2+deb9u2, automatic), libbdplus0:armhf (0.1.2-2, automatic), fontconfig-config:armhf (2.11.0-6.7, automatic), vdpau-driver-all:armhf (1.1.1-6, automatic), libopus0:armhf (1.2~alpha2-1, automatic), libvpx4:armhf (1.6.1-3+deb9u1, automatic), libxshmfence1:armhf (1.2-1, automatic), libavutil-dev:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libllvm3.9:armhf (1:3.9.1-9+rpi1, automatic), libavcodec-dev:armhf (7:3.2.10-1~deb9u1+rpt1), libdrm-amdgpu1:armhf (2.4.74-1, automatic), libva1:armhf (1.7.3-2, automatic), libx264-148:armhf (2:0.148.2748+git97eaef2-1+rpi1, automatic), libmpg123-0:armhf (1.23.8-1, automatic), libx265-95:armhf (2.1-2, automatic), libxvidcore4:armhf (2:1.3.4-1, automatic), libzvbi0:armhf (0.2.35-13, automatic), libvorbisenc2:armhf (1.3.5-4+deb9u2, automatic), libspeex1:armhf (1.2~rc1.2-1, automatic), libaacs0:armhf (0.8.1-2, automatic), libvdpau-va-gl1:armhf (0.4.2-1, automatic), fonts-dejavu-core:armhf (2.37-1, automatic), libavcodec57:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libavutil55:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libtheora0:armhf (1.1.1+dfsg.1-14, automatic), libgme0:armhf (0.6.0-4, automatic), libssh-gcrypt-4:armhf (0.7.3-2, automatic), libxfixes3:armhf (1:5.0.3-1, automatic), libsoxr0:armhf (0.1.2-2, automatic), libwebpmux2:armhf (0.5.2-1, automatic), libfontconfig1:armhf (2.11.0-6.7, automatic), libgl1-mesa-dri:armhf (13.0.6-1+rpi2, automatic), libswscale4:armhf (7:3.2.10-1~deb9u1+rpt1, automatic), libv4l-dev:armhf (1.12.3-1), libxxf86vm1:armhf (1:1.1.4-1, automatic), libxdamage1:armhf (1:1.1.4-2+b1, automatic), libshine3:armhf (3.1.0-5, automatic), libgl1-mesa-glx:armhf (13.0.6-1+rpi2, automatic), libtwolame0:armhf (0.3.13-2, automatic), libgsm1:armhf (1.0.13-4, automatic), libva-x11-1:armhf (1.7.3-2, automatic), libdrm-radeon1:armhf (2.4.74-1, automatic), libva-drm1:armhf (1.7.3-2, automatic), libswscale-dev:armhf (7:3.2.10-1~deb9u1+rpt1), mesa-vdpau-drivers:armhf (13.0.6-1+rpi2, automatic), libvorbis0a:armhf (1.3.5-4+deb9u2, automatic), libcairo2:armhf (1.14.8-1+rpi1, automatic), libxcb-glx0:armhf (1.12-1, automatic), libzvbi-common:armhf (0.2.35-13, automatic), libxcb-dri2-0:armhf (1.12-1, automatic), libsensors4:armhf (1:3.4.0-4, automatic), libxcb-dri3-0:armhf (1.12-1, automatic), libbluray1:armhf (1:0.9.3-4, automatic), libx11-xcb1:armhf (2:1.6.4-3, automatic), libxcb-sync1:armhf (1.12-1, automatic), mesa-va-drivers:armhf (13.0.6-1+rpi2, automatic)
+End-Date: 2018-06-11  00:22:07
+
+Start-Date: 2018-06-11  00:22:13
+Commandline: apt-get install libxvidcore-dev libx264-dev -y
+Requested-By: pi (1000)
+Install: libxvidcore-dev:armhf (2:1.3.4-1), libx264-dev:armhf (2:0.148.2748+git97eaef2-1+rpi1)
+End-Date: 2018-06-11  00:22:14
+
+Start-Date: 2018-06-11  00:22:31
+Commandline: apt-get install libatlas-base-dev gfortran -y
+Requested-By: pi (1000)
+Install: libatlas3-base:armhf (3.10.3-1+rpi1, automatic), libatlas-base-dev:armhf (3.10.3-1+rpi1), gfortran:armhf (4:6.3.0-4), libblas-common:armhf (3.7.0-2, automatic), libgfortran3:armhf (6.3.0-18+rpi1+deb9u1, automatic), gfortran-6:armhf (6.3.0-18+rpi1+deb9u1, automatic), libgfortran-6-dev:armhf (6.3.0-18+rpi1+deb9u1, automatic), libblas-dev:armhf (3.7.0-2, automatic), libatlas-dev:armhf (3.10.3-1+rpi1, automatic), libblas3:armhf (3.7.0-2, automatic)
+End-Date: 2018-06-11  00:22:40
+
+Start-Date: 2018-06-11  00:22:48
+Commandline: apt install libzmq-dev -y
+Requested-By: pi (1000)
+Install: libpgm-5.2-0:armhf (5.2.122~dfsg-2, automatic), libzmq1:armhf (2.2.0+dfsg-7, automatic), libzmq-dev:armhf (2.2.0+dfsg-7)
+End-Date: 2018-06-11  00:22:51
+
+Start-Date: 2018-06-11  00:22:58
+Commandline: apt install xsel xclip -y
+Requested-By: pi (1000)
+Install: xclip:armhf (0.12+svn84-4), libsm6:armhf (2:1.2.2-1+b1, automatic), libxt6:armhf (1:1.1.5-1, automatic), libxmu6:armhf (2:1.1.2-2, automatic), xsel:armhf (1.2.0-2), x11-common:armhf (1:7.7+19, automatic), libice6:armhf (2:1.0.9-2, automatic)
+End-Date: 2018-06-11  00:23:03
+
+Start-Date: 2018-06-11  00:23:11
+Commandline: apt install python3-h5py -y
+Requested-By: pi (1000)
+Install: libaec0:armhf (0.3.2-1, automatic), libhdf5-100:armhf (1.10.0-patch1+docs-3+deb9u1, automatic), python3-numpy:armhf (1:1.12.1-3, automatic), libsz2:armhf (0.3.2-1, automatic), python3-h5py:armhf (2.7.0-1)
+End-Date: 2018-06-11  00:23:23
+
+Start-Date: 2018-06-11  00:23:58
+Commandline: apt install libxml2-dev python3-lxml -y
+Requested-By: pi (1000)
+Install: python3-html5lib:armhf (0.999999999-1, automatic), python3-webencodings:armhf (0.5-2, automatic), libxml2-dev:armhf (2.9.4+dfsg1-2.2+deb9u2), libicu-dev:armhf (57.1-6+deb9u2, automatic), icu-devtools:armhf (57.1-6+deb9u2, automatic), python3-lxml:armhf (3.7.1-1), python3-chardet:armhf (2.3.0-2, automatic), libxslt1.1:armhf (1.1.29-2.1, automatic), python3-bs4:armhf (4.5.3-1, automatic)
+End-Date: 2018-06-11  00:24:17
+
+Start-Date: 2018-06-11  00:24:22
+Commandline: apt install libxslt-dev -y
+Requested-By: pi (1000)
+Install: libxslt1-dev:armhf (1.1.29-2.1)
+End-Date: 2018-06-11  00:24:25
+
+Start-Date: 2018-06-11  00:24:29
+Commandline: apt-get remove python2.7 -y
+Requested-By: pi (1000)
+Remove: python2.7:armhf (2.7.13-2+deb9u2), python:armhf (2.7.13-2), python-rpi.gpio:armhf (0.6.3~stretch-1)
+End-Date: 2018-06-11  00:24:32
+
+Start-Date: 2018-06-11  00:24:35
+Commandline: apt-get autoremove -y
+Requested-By: pi (1000)
+Remove: python2.7-minimal:armhf (2.7.13-2+deb9u2), libpython-stdlib:armhf (2.7.13-2), libpython2.7-minimal:armhf (2.7.13-2+deb9u2), libpng-tools:armhf (1.6.28-1), libpython2.7-stdlib:armhf (2.7.13-2+deb9u2), python-minimal:armhf (2.7.13-2)
+End-Date: 2018-06-11  00:24:38
+
+Start-Date: 2018-06-11  00:24:46
+Commandline: apt install redis-server -y
+Requested-By: pi (1000)
+Install: redis-tools:armhf (3:3.2.6-1, automatic), libjemalloc1:armhf (3.6.0-9.1, automatic), redis-server:armhf (3:3.2.6-1)
+End-Date: 2018-06-11  00:24:53
+
+Start-Date: 2018-06-11  00:24:58
+Commandline: apt install virtualenv -y
+Install: virtualenv:armhf (15.1.0+ds-1), python3-virtualenv:armhf (15.1.0+ds-1, automatic)
+End-Date: 2018-06-11  00:25:01
+
+Start-Date: 2019-02-13  18:43:49
+Commandline: apt-get install vim
+Requested-By: pi (1000)
+Install: vim-runtime:armhf (2:8.0.0197-4+deb9u1, automatic), vim:armhf (2:8.0.0197-4+deb9u1), libgpm2:armhf (1.20.4-6.2, automatic)
+End-Date: 2019-02-13  18:44:59

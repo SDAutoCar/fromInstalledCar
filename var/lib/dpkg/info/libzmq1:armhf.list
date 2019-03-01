@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libzmq.so.1.0.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libzmq1
+/usr/share/doc/libzmq1/AUTHORS
+/usr/share/doc/libzmq1/README
+/usr/share/doc/libzmq1/copyright
+/usr/share/doc/libzmq1/NEWS.gz
+/usr/share/doc/libzmq1/changelog.gz
+/usr/share/doc/libzmq1/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libzmq.so.1

@@ -1,0 +1,7 @@
+2e2983268b0b3a5e26e6ab9370e09626  usr/include/cblas.h
+56e2d968a4fc18b7afede7ba9ae0e8dd  usr/include/cblas_f77.h
+7611c7e3e1e20320cd9e6186179d6df1  usr/include/cblas_mangling.h
+f6dd7069fbee3b7750a6df7af032d395  usr/lib/libblas/libblas.a
+267826534cf43fa7cdcb07f50e603b0f  usr/lib/pkgconfig/blas-netlib.pc
+22c7fab88132913e506836c743756a91  usr/share/doc/libblas-dev/changelog.Debian.gz
+4dc3bd327637c2380f8aaac7578372ce  usr/share/doc/libblas-dev/copyright

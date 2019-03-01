@@ -1,0 +1,7 @@
+46a3f045c3a1fa38e8e0a5a37c311810  usr/include/arm-linux-gnueabihf/libswscale/swscale.h
+bd9970a101cb31f8c760295344de140e  usr/include/arm-linux-gnueabihf/libswscale/version.h
+d5001cdd2df215a547173d7816b2a5b6  usr/lib/arm-linux-gnueabihf/libswscale.a
+e1ae6d33a902302927524ece389c0ecc  usr/lib/arm-linux-gnueabihf/pkgconfig/libswscale.pc
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libswscale-dev/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libswscale-dev/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libswscale-dev/copyright

@@ -1,0 +1,7 @@
+42d578ef174024a2580ba83def5faa1c  usr/include/arm-linux-gnueabihf/libswresample/swresample.h
+b30ab8475f7927a24c34efda513e53a5  usr/include/arm-linux-gnueabihf/libswresample/version.h
+926296a5d27ad2aee8d22624576836ea  usr/lib/arm-linux-gnueabihf/libswresample.a
+649eaf0f5ae0c9e776383a706af332a6  usr/lib/arm-linux-gnueabihf/pkgconfig/libswresample.pc
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libswresample-dev/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libswresample-dev/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libswresample-dev/copyright

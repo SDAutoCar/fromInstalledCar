@@ -1,0 +1,12 @@
+e9a028bda54b43fe04597b3c4973eb74  usr/lib/atlas-base/atlas/libblas.so.3.0
+bda29868f92441ba3adb4eb438bf7825  usr/lib/atlas-base/atlas/liblapack.so.3.0
+d2401e29589afbe67644f0f0ad57ef0c  usr/lib/atlas-base/libatlas.so.3.0
+8e0941e54675e1e3915fda0b39e26cc4  usr/lib/atlas-base/libcblas.so.3.0
+34c3cde5cd76304f43905f46e520d866  usr/lib/atlas-base/libf77blas.so.3.0
+3c1ed08abe5e72563490bdd9524e9521  usr/lib/atlas-base/liblapack_atlas.so.3.0
+270e40014eb6849b6ea532508270da75  usr/share/doc/libatlas3-base/README
+aa425be3deefd7ca24f98a7a6d61065a  usr/share/doc/libatlas3-base/README.Debian
+dee88e93702f02a780da08f0cfa0f4cf  usr/share/doc/libatlas3-base/TODO.Debian
+8350962419dab10d84bf84c08a6b6a42  usr/share/doc/libatlas3-base/changelog.Debian.gz
+daae9f47def63335a6b27c5837669b26  usr/share/doc/libatlas3-base/changelog.gz
+ff86d0295a69ad9bf498420bbbaefbc5  usr/share/doc/libatlas3-base/copyright

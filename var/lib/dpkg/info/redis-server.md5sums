@@ -1,0 +1,8 @@
+eaff460a1a907f5158b0268a655aa192  lib/systemd/system/redis-server.service
+3d3ffdfa72e0b3a70b625bfac9bd3c93  usr/bin/redis-server
+ec276a22560c69c6e8d8c9b8d34c156f  usr/lib/tmpfiles.d/redis-server.conf
+a4453661a87c51dda2620d35ee2cd058  usr/share/doc/redis-server/MANIFESTO.gz
+f1336117ff06ad3b03506d95900f8478  usr/share/doc/redis-server/README.md.gz
+bff8b91677b00e8271e2763c75d5096b  usr/share/doc/redis-server/changelog.Debian.gz
+6884a8609766598c538c11d3af2d044e  usr/share/doc/redis-server/copyright
+78d0dd811ef085d68134665722fc5411  usr/share/man/man1/redis-server.1.gz

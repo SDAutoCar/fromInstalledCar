@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/gcc
+/usr/lib/gcc/arm-linux-gnueabihf
+/usr/lib/gcc/arm-linux-gnueabihf/6
+/usr/lib/gcc/arm-linux-gnueabihf/6/libcaf_single.a
+/usr/lib/gcc/arm-linux-gnueabihf/6/libgfortran.a
+/usr/share
+/usr/share/doc
+/usr/lib/gcc/arm-linux-gnueabihf/6/libgfortran.so
+/usr/share/doc/libgfortran-6-dev

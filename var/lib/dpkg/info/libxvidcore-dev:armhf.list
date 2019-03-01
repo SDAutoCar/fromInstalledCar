@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/include
+/usr/include/xvid.h
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libxvidcore.a
+/usr/share
+/usr/share/doc
+/usr/share/doc/libxvidcore-dev
+/usr/share/doc/libxvidcore-dev/copyright
+/usr/share/doc/libxvidcore-dev/changelog.Debian.gz
+/usr/share/doc/libxvidcore-dev/changelog.gz
+/usr/lib/arm-linux-gnueabihf/libxvidcore.so

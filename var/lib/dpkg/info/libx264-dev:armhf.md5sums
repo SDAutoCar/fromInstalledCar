@@ -1,0 +1,6 @@
+4a4bea609f20062c0f7a21bc9d124e0a  usr/include/x264.h
+161379728bad52d0e1ad5a6a62801cc6  usr/include/x264_config.h
+80926e5b38da0afce450638f635c7f6b  usr/lib/arm-linux-gnueabihf/libx264.a
+2ea7fc28ba9647b8565065576835a8cc  usr/lib/arm-linux-gnueabihf/pkgconfig/x264.pc
+f3b548e329eed790a7d4219e1bd94b6b  usr/share/doc/libx264-dev/changelog.Debian.gz
+36adb8488e9581890fa2401cfc676df2  usr/share/doc/libx264-dev/copyright

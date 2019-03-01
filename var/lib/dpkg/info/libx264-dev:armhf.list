@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/include
+/usr/include/x264.h
+/usr/include/x264_config.h
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libx264.a
+/usr/lib/arm-linux-gnueabihf/pkgconfig
+/usr/lib/arm-linux-gnueabihf/pkgconfig/x264.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/libx264-dev
+/usr/share/doc/libx264-dev/changelog.Debian.gz
+/usr/share/doc/libx264-dev/copyright
+/usr/lib/arm-linux-gnueabihf/libx264.so
